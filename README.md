@@ -1,2 +1,2 @@
-# growing
-成长过程
+# python + mysql +django
+练习
