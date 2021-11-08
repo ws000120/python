@@ -6,10 +6,11 @@
 @Date    ：2021/11/6 17:58
 """
 from django.urls import path
-from sales.views import listorders, listcustomer
+from mgr import customer, sign_in_out
 
 # 配置路由
 urlpatterns = [
-    path('orders/', listorders),
-    path('customer/', listcustomer),
+    path('custmoer/', customer.dispatch),
+    path('signin', sign_in_out.signin),
+    path('signout', sign_in_out.signout),
 ]

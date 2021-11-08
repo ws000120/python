@@ -6,7 +6,7 @@ from common.models import Customer
 import datetime
 import json
 
-
+# 测试案例
 class DateEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, datetime.datetime):

@@ -11,5 +11,5 @@ from sales.views import listorders, listcustomer
 # 配置路由
 urlpatterns = [
     path('orders/', listorders),
-    path('customer/', listcustomer),
+    # path('customer/', listcustomer),
 ]
